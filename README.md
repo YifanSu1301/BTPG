@@ -6,6 +6,12 @@
 cmake -DCMAKE_BUILD_TYPE=RELEASE .
 make
 ```
+If you want to output more information, use the following command line.
+
+```bash
+cmake -DCMAKE_BUILD_TYPE=Debug .
+make
+```
 
 ```bash
 ./btpg -f Paris_1_256-random-10_150agents.txt -s 1 -a 1

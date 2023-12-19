@@ -112,11 +112,6 @@ int main(int argc, char *argv[])
         {
             timeInterval += timeInterval;
         }
-        // write to a file
-        std::ofstream myfile;
-        myfile.open("AnytimeMonitor.txt", std::ios_base::app);
-        myfile << filename << timeInterval << std::endl;
-        myfile.close();
     }
 
     return 0;
